@@ -547,7 +547,6 @@ fi
 %config(noreplace) %{_sysconfdir}/%{name}/management/web.xml
 %config(noreplace) %{_sysconfdir}/%{name}/management/environment.properties
 %config(noreplace) %{_sysconfdir}/%{name}/management/java.security.ciphers
-%config(noreplace) %{_sysconfdir}/%{name}/management/commons-logging.properties
 %attr(0755,root,root) %{_initrddir}/%{name}-management
 %attr(0755,root,root) %{_initrddir}/tomcat.sh
 
